@@ -42,7 +42,6 @@
 - NetworkX
 - LangChain
 - Timeout-Decorator
-- Other dependencies can be installed using the `requirements.txt` file.
 
 ### Setup
 
