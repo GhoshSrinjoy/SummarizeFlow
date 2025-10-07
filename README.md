@@ -1,7 +1,23 @@
-# SummarizeFlow
+*“I asked my AI to summarize my codebase. It replied, ‘You could’ve just written cleaner comments.’”*  
 
-**SummarizeFlow** is a powerful and efficient multi-agent file summarizer application that processes files within a directory structure using a graph-based approach. Each file is treated as a node in the graph, and the relationships (or dependencies) between files can be modeled as edges. The application provides a structured, organized, and smooth workflow for summarizing large sets of files, making it ideal for projects with complex directory hierarchies.
+# 🧩 SummarizeFlow  
 
+**SummarizeFlow** is a multi-agent, graph-based file summarizer built for complex projects with deep directory hierarchies.  
+It automatically reads, organizes, and summarizes files  turning messy folders into structured, high-level summaries.  
+
+Think of it as a **project-wide TL;DR generator** that actually understands dependencies.  
+
+🔗 **Repo:** https://github.com/GhoshSrinjoy/SummarizeFlow  
+
+---
+
+## Executive Summary  
+
+When projects grow, documentation often doesn’t. SummarizeFlow fixes that by using a **graph of intelligent agents** that scan your entire file structure, summarize each file, and connect the dots.  
+
+Each file becomes a **node in a graph**, each dependency an **edge**, and each summary part of a **bigger story**.  
+
+The result: an elegant, JSON-formatted summary map of your entire codebase  perfect for onboarding, audits, or quick understanding of large repositories.  
 ## Features
 
 - **Graph-Based Processing**: Files are treated as nodes in a graph, allowing for flexible processing order and dependency management.
